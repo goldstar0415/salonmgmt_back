@@ -1,0 +1,53 @@
+{
+    "SUPER_ADMIN_ROLE": 100,
+    "ADMIN_ROLE": 50,
+    "STAFF_ROLE": 40,
+    "CUSTOMER_ROLE": 30,
+    "USER_REGISTRATION_EMAIL_SUBJECT": "Welcome to App",
+    "APP_EMAIL_FROM": "App",
+    "FREE_BILLING": 0,
+    "OFFICE_HOUR": {
+        "sunday":{
+            "day": "Sunday",
+            "open_time": "09:00",
+            "close_time": "17:00",
+            "selected": false
+        },
+        "monday":{
+            "day": "Monday",
+            "open_time": "09:00",
+            "close_time": "17:00",
+            "selected": true
+        },
+        "tuesday":{
+            "day": "Tuesday",
+            "open_time": "09:00",
+            "close_time": "17:00",
+            "selected": true
+        },
+        "wednesday":{
+            "day": "Wednesday",
+            "open_time": "09:00",
+            "close_time": "17:00",
+            "selected": true
+        },
+        "thursday":{
+            "day": "Thursday",
+            "open_time": "09:00",
+            "close_time": "17:00",
+            "selected": true
+        },
+        "friday":{
+            "day": "Friday",
+            "open_time": "09:00",
+            "close_time": "17:00",
+            "selected": true
+        },
+        "saturday":{
+            "day": "Saturday",
+            "open_time": "09:00",
+            "close_time": "17:00",
+            "selected": true
+        }
+    }
+}

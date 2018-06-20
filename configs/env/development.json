@@ -1,0 +1,30 @@
+{
+	"host": "localhost",
+	"port": 3000,
+	"webHost": "http://localhost:3000",
+	"dbURI": "mongodb://localhost/salon-mgmt",
+	"userAuths":{
+		"algorithm": "sha256",
+		"secretKey": "s@l0nMgmt"
+	},
+	"jwt": {
+		"expireTime": "30d",
+		"algorithm": "HS384",
+		"secretKey": "s@l0nMgmt"
+	},
+	"nodemailerObj": {
+        "host": "smtp.gmail.com",
+        "port": 465,
+        "secure": true,
+        "auth": {
+            "user": "andreas.klingenberger@gmail.com",
+            "pass": ""
+        }
+    },
+    "mailgunOptions": {
+      "auth": {
+        "api_key": "key-10117022080accad72c5924bb2081dba",
+        "domain": "salontime.de"
+      }
+    }
+}
